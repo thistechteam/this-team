@@ -411,10 +411,10 @@ export function Hero() {
           }}
           className="div"
         >
-          <h2 className="text-center tracking-tight text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-gray-950 to-gray-200">
+          <h2 className="text-center tracking-tight text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-gray-950 to-gray-400">
             This Team
           </h2>
-          <p className="text-center text-base md:text-xl my-5 font-normal text-opacity-50 dark:text-opacity-25 text-neutral-700 dark:text-neutral-200 max-w-4xl md:max-w-md mt-2 mx-auto">
+          <p className="text-center text-base md:text-xl my-5 font-normal  text-neutral-700 dark:text-neutral-200 max-w-4xl md:max-w-md mt-2 mx-auto">
             Our mission is to harness the power of technology and collective
             learning to identify and solve real-world problems.
           </p>
@@ -424,7 +424,7 @@ export function Hero() {
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-background bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-background bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
     </div>
   );
 }
